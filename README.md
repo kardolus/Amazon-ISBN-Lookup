@@ -1,8 +1,7 @@
 # Amazon-ISBN-Lookup
 Java Client to the Amazon Affiliate Program REST service
 
-Replace the following Strings with your own values in the testLookup() method of the ItemLookupTest class in the 
-us.kardol.amazon.isbn package.
+In order to run testLookup() without the method throwing an exception, you need to replace the following values:
 
 instance.setAccessKey("your-key");<br/>
 instance.setAssociateTag("your-tag");<br/>
